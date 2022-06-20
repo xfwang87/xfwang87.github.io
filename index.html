@@ -55,13 +55,11 @@
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
-    <h3><b>X.~F. Wang</b></h3>
+    <h3><b>X.F.Wang</b></h3>
   </div>
   <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
     <a href="#home" class="w3-bar-item w3-button">Home</a>
-    <a href="#news" class="w3-bar-item w3-button">News</a>
     <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-    <a href="#talks" class="w3-bar-item w3-button">Talks</a>
     <a href="#publications" class="w3-bar-item w3-button">Research</a>
     <a href="#service" class="w3-bar-item w3-button">Services</a>
     <a href="#award" class="w3-bar-item w3-button">Awards</a>
@@ -70,7 +68,7 @@
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24">X.~F. Wang</div>
+  <div class="w3-bar-item w3-padding-24">X.F.Wang</div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
   </div>
 </header>
@@ -89,7 +87,7 @@
       <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/wangxiangfeng.jpg">
       <h1>Xiangfeng Wang</h1>
         <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
-        I am an associate professor at <a href="http://cs.ecnu.edu.cn/">School of computer Science and Technology</a> <a href="https://www.ecnu.edu.cn/">East China normal University</a>. Before that, I received my bachelor's degree and doctorate degree from Nanjing University in 2009 and 2014 respectively under supervision of Professor Bingsheng He. During my PhD study, I was supported by the National Scholarship Council for joint training at the University of Minnesota under the supervision of Professor Zhi-Quan Luo. My main research interests are multi-agent reinforcement learning, distributed optimization, trustworthy machine learning and so on.
+        I am an associate professor at <a href="http://cs.ecnu.edu.cn/">School of computer Science and Technology</a> <a href="https://www.ecnu.edu.cn/">East China normal University</a>. Before that, I received my bachelor's degree and doctorate degree from Nanjing University in 2009 and 2014 respectively under the supervision of Professor Bingsheng He. During my PhD study, I was supported by the National Scholarship Council for joint training at the University of Minnesota under the supervision of Professor <a href="https://sse.cuhk.edu.cn/en/faculty/luozhiquan">Zhi-Quan Luo</a>. My main research interests are multi-agent reinforcement learning, distributed optimization, trustworthy machine learning and so on.
 	</p>
         <p class="w3-center">
           <a href="mailto:xfwang@cs.ecnu.edu.cn">Email</a> &nbsp/&nbsp
@@ -105,6 +103,7 @@
       <p><li> Learn to Optimize
       <p><li> Trustworthy Machine Learning: fairness, privacy and etc.
   </div>
+	      
 <!-- The Projects Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h2>Recent Projects</h2>
@@ -121,34 +120,8 @@
         I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
         </p> 
 
-        <h4><li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li></h4>
-        <img style="width:96%;" src="images/GhostNet.png"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC) 2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
-        </p>
-        <p class="w3-justify">
-        The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
-        </p> 
-
-        <h4><li>AI on Ascend: Real-Time Video Style Transfer</li></h4>
-        <img style="width:32%;" src="images/atlas200.png"> &nbsp&nbsp <img style="width:60%;" src="images/video.gif">
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html">Huawei Developer Conference (HDC) 2020</a> | <a style="color: #447ec9" href="https://developer.huaweicloud.com/exhibition/Atlas_neural_style.html">Online Demo</a>
-        </p>
-        <p class="w3-justify">
-        This project aims to develop a video style transfer system on the <strong>Huawei Atlas 200 DK AI developer Kit</strong>. The latency of the original model for processing one image is about <span style="color:red">630ms</span>. After accelerating it using our method, the lantency now is about <span style="color:red">40ms</span>. 
-        </p>  
-
   </div>
-  
-  <!-- The Talks Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="talks">
-    <h2>Talks</h2>
-      <p><li> 10/2021, Vision Transformer at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>.</li></p>
-	  <p><li> 05/2021, Adder Neural Network at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>. Thanks <a href="https://datawisdom.ca/">Vahid</a> for the invitation.</li></p>
-      <p><li> 06/2020, "<a href="http://valser.org/webinar/slide/slides/20200603/%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9-%E5%B7%A5%E4%B8%9A%E7%95%8C%E5%92%8C%E5%AD%A6%E6%9C%AF%E7%95%8C%E7%9A%84%E5%B7%AE%E5%BC%82.pdf">AI on the Edge - Discussion on the Gap Between Industry and Academia</a>" at <a  href="http://valser.org/"><strong>VALSE</strong></a> Webinar.</li></p>
-      <p><li> 05/2020, "<a href="https://www.bilibili.com/video/av925692420/">Edge AI: Progress and Future Directions</a>" at <a href="https://www.qbitai.com/"> <strong>QbitAI</strong></a> using <a  href="https://www.bilibili.com/"><strong>bilibili</strong></a>.</li></p>
-  </div>
+
  <!-- The Publications Section -->
   <div class="w3-container w3-padding-32"" id="publications">
     <h2>Research</h2>
