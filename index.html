@@ -117,6 +117,17 @@
         VMAgent is a platform for exploiting Reinforcement Learning (RL) on Virtual Machine (VM) scheduling tasks. It is developed by the Multi-Agent Artificial Intelligence Lab (MAIL) in East China Normal University and Algorithm Innovation Lab in HUAWEI Cloud. VMAgent is constructed based on one month real VM scheduling dataset called Huawei-East-1 from HUAWEI Cloud and it contains multiple practicle VM scheduling scenarios (such as Fading, Rcovering, etc). These scenarios also correspond to the challanges in the RL. Exploiting the design of RL methods in these secenarios help both the RL and VM scheduling communities. To emphasis, more details about VMAgent can be found in our paper <strong>VMAgent: A Practical Virtual Machine Scheduling Platform</strong>. Our another paper <strong>Learning to Schedule Multi-NUMA Virtual Machines via Reinforcement Learning</strong> has employed this VMAgent simultor to design RL-based VM scheduling algorithms.
 	</p> 
 
+    <p class="w3-justify"></p>
+
+        <h4><li>LSC: Learning structured communication for MARL</li></h4>
+        <img style="width:96%;" src="images/vmagent.svg"> 
+        <p class="w3-justify">
+        <strong><a style="color: #447ec9" href="https://github.com/mail-ecnu/VMAgent">Project Page</a></strong>
+        </p>
+        <p class="w3-justify">
+        This work explores the large-scale multi-agent communication mechanism for multi-agent reinforcement learning (MARL). We summarize the general topology categories for communication structures, which are often manually specified in MARL literature. A novel framework termed Learning Structured Communication (LSC) is proposed by learning a flexible and efficient communication topology (hierarchical structure). It contains two modules: structured communication module and communication-based policy module. The structured communication module learns to form a hierarchical structure by maximizing the cumulative reward of the agents under the current communication-based policy. The communication-based policy module adopts hierarchical graph neural networks to generate messages, propagate information based on the learned communication structure, and select actions. In contrast to existing communication mechanisms, our method has a learnable and hierarchical communication structure. Experiments on large-scale battle scenarios show that the proposed LSC has high communication efficiency and global cooperation capability.
+	</p> 
+
   </div>
 
  <!-- The Publications Section -->
