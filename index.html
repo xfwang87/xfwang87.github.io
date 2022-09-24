@@ -128,6 +128,17 @@
         This work explores the large-scale multi-agent communication mechanism for multi-agent reinforcement learning (MARL). We summarize the general topology categories for communication structures, which are often manually specified in MARL literature. A novel framework termed Learning Structured Communication (LSC) is proposed by learning a flexible and efficient communication topology (hierarchical structure). It contains two modules: structured communication module and communication-based policy module. The structured communication module learns to form a hierarchical structure by maximizing the cumulative reward of the agents under the current communication-based policy. The communication-based policy module adopts hierarchical graph neural networks to generate messages, propagate information based on the learned communication structure, and select actions. In contrast to existing communication mechanisms, our method has a learnable and hierarchical communication structure. Experiments on large-scale battle scenarios show that the proposed LSC has high communication efficiency and global cooperation capability. To emphasis, more details about VMAgent can be found in our <em>Autonomous Agents and Multi-Agent Systems</em> paper <strong>Learning structured communication for multi-agent reinforcement learning</strong>.
 	</p>
 
+    <p class="w3-justify"></p>
+
+        <h4><li><strong>Multi-Agent Path Finding</strong></li></h4>
+        <img style="width:96%;" src="images/MAPF.png"> 
+        <p class="w3-justify">
+        <strong><a style="color: #447ec9" href="xx">Project Page</a></strong>
+        </p>
+        <p class="w3-justify">
+        Multi-agent pathfinding (MAPF) has been widely used to solve large-scale real-world problems, e.g., automation warehouses. The learning-based, fully decentralized framework has been introduced to alleviate real-time problems and simultaneously pursue optimal planning policy. However, existing methods might generate significantly more vertex conflicts (or collisions), which lead to a low success rate or more makespan. In this paper, we propose a PrIoritized COmmunication learning method (PICO), which incorporates the implicit planning priorities into the communication topology within the decentralized multi-agent reinforcement learning framework. Assembling with the classic coupled planners, the implicit priority learning module can be utilized to form the dynamic communication topology, which also builds an effective collision-avoiding mechanism. PICO performs significantly better in large-scale MAPF tasks in success rates and collision rates than state-of-the-art learning-based planners.
+	</p>
+	  
   </div>
 
  <!-- The Publications Section -->
